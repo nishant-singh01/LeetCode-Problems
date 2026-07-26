@@ -18,3 +18,24 @@
 	<li><code>3 &lt;= nums.length &lt;=&nbsp;10<sup>4</sup></code></li>
 	<li><code>-1000 &lt;= nums[i] &lt;= 1000</code></li>
 </ul>
+
+
+<h2>Approach</h2>
+<ul>
+  <li>Sort the array.</li>
+  <li>Calculate the product of the three largest numbers.</li>
+  <li>Calculate the product of the two smallest numbers and the largest number.</li>
+  <li>Return the maximum of both products.</li>
+</ul>
+
+<h2>Time Complexity</h2>
+<p>O(n log n)</p>
+
+<h2>Space Complexity</h2>
+<p>O(1)</p>
+<h2>Concepts Used</h2>
+<ul>
+  <li>Sorting</li>
+  <li>Arrays</li>
+  <li>Greedy Observation</li>
+</ul>
